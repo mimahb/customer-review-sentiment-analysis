@@ -9,3 +9,37 @@ This project is a simple sentiment analysis API built with Django, Django Ninja,
  Easily testable via Postman or any frontend client.
 
  Built using Django and Django Ninja for fast API development.
+
+## How to Use
+Clone the repo:
+
+git clone https://github.com/mimahb/customer-review-sentiment-analysis.git
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the Django server:
+python manage.py runserver
+
+Test the API at:
+http://127.0.0.1:8000/api/sentiment/analyze
+POST JSON:
+{
+  "text": "I love this product!"
+}
+
+Response:
+{
+  "label": "POSITIVE",
+  "score": 0.9987
+}
+
+## Tech Stack
+Django
+
+Django Ninja
+
+Hugging Face Transformers
+
+Python 3
+
