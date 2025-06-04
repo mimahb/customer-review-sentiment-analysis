@@ -1,5 +1,5 @@
 # Customer Review Sentiment Analysis API
-This project is a simple sentiment analysis API built with Django, Django Ninja, and a pretrained model from Hugging Face. It analyzes customer reviews and classifies them as positive, negative, or neutral.
+This project is a robust sentiment analysis API built with Django and Django Ninja. I used pretrained model from Hugging Face to trained the data on sentiment analysis. It analyzes customer reviews and classifies them as positive, negative, or neutral.
 
 ## Features
  Uses a pretrained Hugging Face transformer model for sentiment analysis.
@@ -8,7 +8,7 @@ This project is a simple sentiment analysis API built with Django, Django Ninja,
 
  Easily testable via Postman or any frontend client.
 
- Built using Django and Django Ninja for fast API development.
+ Built using Django and Django Ninja for fast API development and ready for deployment.
 
 ## How to Use
 Clone the repo:
